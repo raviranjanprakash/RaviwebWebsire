@@ -1,0 +1,117 @@
+.menu_section{
+  position: relative;
+  background: transparent;
+  box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
+  z-index: 99999;
+  transition: all 0.5s;
+}
+
+.nav-header .left-nav .nav-item{
+	margin:0 0 0 2px;
+ 
+}
+.left-nav .navbar-brand{
+  width: 21%;
+}
+.nav-header .left-nav .nav-item .nav-link{
+	font-size: 15px;
+	font-weight: 700;
+	font-stretch: normal;
+	font-style: normal;
+	letter-spacing: normal;
+	color: #000;
+  text-transform: uppercase;
+	background-color:transparent;
+    padding: 8px 24px 10px;
+    transition: 0.5s  ease 0s;
+}
+
+.nav-header .left-nav .dropdown-menu{
+  position:absolute;
+  top:58px;
+  min-width: 150px;
+  padding:8px 16px;
+  border-radius: 5px;
+  box-shadow: 0 10px 17px 0 rgba(0, 0, 0, 0.14);
+  background-color: #ffffff;
+  border: none;
+}
+.nav-header .left-nav .dropdown-menu .dropdown-item {
+  padding:0;
+  /* // height: 32px; */
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.29;
+  letter-spacing: normal;
+  color: #101d15;
+  position: relative;
+  transition: all 0.4s;
+}
+.nav-header .left-nav .dropdown-menu  a.i_toggle::after {
+    content: "\f054";
+  font-family:"FontAwesome";
+  display: inline;
+  font-size: 10px;
+  text-align: center;
+  margin-left: 10px;
+  transition: all 0.3s;
+  vertical-align: text-top;
+  visibility: hidden;
+  opacity: 0;
+  background-image: linear-gradient(99deg, #d73e68, #fbc79a);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.nav-header .left-nav .dropdown-menu  .i_toggle:hover::after{
+  visibility: visible;
+  opacity: 1;
+}
+.nav-header .left-nav .dropdown-menu .dropdown-item:hover{
+  background:none;
+  background-image: linear-gradient(99deg, #d73e68, #fbc79a);
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  -webkit-text-fill-color: transparent;
+}
+
+.nav-header .left-nav .nav-item:hover{
+	  border-radius: 40px;
+    color:#fff;
+}
+.nav-header .right-share{
+    float: right;
+    margin-left: 20px;
+}
+.nav-header .right-share a img{
+	width:24px;
+	height: 24px;
+}
+.nav-header .right-share a:first-child{
+	margin-right: 16px;
+}
+
+.navbar-scroll {
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  background: #ffffff;
+  padding: 0;
+ box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.4);
+  transition-duration: 0.6s;
+  transition: all 0.5s;
+  z-index: 1001;
+}
+.nav-sticky{
+  transition: all 0.5s;
+}
+
+.offcanvas-header{ display:none; }
+
+
+
+/* ----------------end-menu---------------------- */

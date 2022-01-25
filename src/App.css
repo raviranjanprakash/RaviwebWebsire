@@ -1,0 +1,95 @@
+
+body {
+  font-family: "Roboto",sans-serif;
+
+}
+ul{
+  padding-left: 0;
+}
+a{
+  text-decoration: none;
+}
+.bannersection{
+  width: 100%;
+  background: url('./images/sd-1.jpg');
+  background-size: cover;
+  /* background-image: linear-gradient(100deg, #03228f 34%, #0e73e4 100%); */
+  padding: 100px 0 119px 0;
+}
+
+.bannersection .baner_left .title {
+  font-size: 42px;
+  line-height: 59px;
+  font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 20px;
+    padding-top: 100px;
+}
+
+.desc {
+  font-size: 20px;
+  line-height: 34px;
+  font-weight: 500;
+  color: #ffffff;
+  margin-bottom: 35px;
+}
+.home_get-start{
+  color: #fff;
+    background-color: transparent;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    padding: 14px 40px 14px 40px;
+    border: none;
+    border-radius: 30px 30px 30px 30px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    transition: all 0.3s ease 0s;
+}
+
+.home_get-start:focus,
+.home_get-start:hover{
+    color: #fff;
+    background-color: transparent;
+}
+.home_get-start:before,
+.home_get-start:after{
+    content: '';
+    background-color: #ff1046;
+    height: 100%;
+    width: 100%;
+    border-radius: inherit;
+    transform-origin: bottom center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    transition: all 0.5s ease 0s;
+}
+.home_get-start:after{
+    background-color: transparent;
+    height: 15px;
+    width: 15px;border: 3px solid #ff1046;
+    border-left: none;
+    border-bottom: none;
+    border-radius: 0;
+    opacity: 0;
+    transform: translateY(-50%) rotate(45deg);
+    top: 43%;
+}
+.home_get-start:focus:before,
+.home_get-start:hover:before{
+    opacity: 1;
+    transform: perspective(700px) rotateX(-87deg);
+}
+.home_get-start:focus:after,
+.home_get-start:hover:after{
+    opacity: 1;
+    left: calc(100% - 32px);
+}
+@media only screen and (max-width: 767px){
+    .home_get-start{ margin-bottom: 20px; }
+}

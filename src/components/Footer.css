@@ -1,0 +1,139 @@
+#footer h2{
+  font-size: 24px;
+  margin: 40px 0 30px 0;
+  color:#333;
+  font-weight: 600;
+}
+#footer p span img{
+ width: 30px;
+ height: 30px;
+ margin-right: 5px;
+}
+#footer .foot_abot{
+ font-size: 17px;
+ /* letter-spacing: 1px; */
+ color: #333;
+}
+
+#footer .social-btn{
+   margin-top: 20px;
+   width: 100%;
+}
+#footer .social-btn ul li{
+display: inline-block;
+margin-right: 2%;
+}
+#footer .social-btn ul li a{
+   text-decoration: none;
+   font-size: 18px;
+   width: 30px;
+   height: 30px;
+   background-color: #fff;
+   display: block;
+   border-radius: 5px;
+   /*color:#222533;*/
+   text-align: center;
+   line-height: 30px;
+   box-shadow: 1px 2px 4px rgba(0,0,0,0.5);
+   transition: 0.5s;
+}
+.fb_color{
+ color: #3b5999;
+}
+.inked_color{
+  color:#4099ff;
+}
+.twitter_color{
+ color:#1da1f2;
+}
+.youtube_color{
+ color:#ff0000;
+}
+.google_plus{
+ color: #cd201f;
+}
+#footer .social-btn ul li:nth-child(1) a:hover{
+   background-color: #3b5999;
+   color:#fff;
+}
+#footer .social-btn ul li:nth-child(2) a:hover{
+    background-color:#4099ff;
+   color:#fff;
+}
+#footer .social-btn ul li:nth-child(3) a:hover{
+    background-color:#1da1f2;
+   color: #fff;
+}
+#footer .social-btn ul li:nth-child(4) a:hover{
+   background-color: #ff0000;
+   color: #fff;
+}
+#footer .social-btn ul li:nth-child(5) a:hover{
+   background-color:#cd201f;
+   color:#fff;
+}
+
+ .foot-list {
+  list-style-type: none;
+  margin-top: 16px; }
+
+ .foot-list li a {
+  font-size: 17px;
+  margin-bottom: 10px;
+    color: #333;
+    font-size: 17px;
+  padding-left: 16px;
+  position: relative;
+  display: block; }
+
+  .foot-list li a:hover{
+    color: #106eea;
+  }
+ .foot-list li a::before {
+  content:"\f0da";
+  font-family: "FontAwesome";
+  position: absolute;
+  top: 3px;
+  left: 0;
+  color: #ff1046;
+  font-size: 17px;
+  text-align: center;
+  transition: all 0.3s;
+  opacity: 1; }
+
+
+
+
+ .address-widget li {
+    padding: 0px 0px 16px 40px;
+    position: relative;
+    list-style: none;
+  }
+  .address-widget li .desc{
+    font-size: 17px;
+    line-height: 19px;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 27px;
+  }
+ .address-widget li .desc a {
+    color: #333;
+    line-height: 35px;
+  }
+ .address-widget li .desc a:hover {
+    color: #106eea;
+  }
+ .address-widget li i {
+  color: #fff;
+  position: absolute;
+  left: 0px;
+  height: 35px;
+  text-align: center;
+  line-height: 35px;
+  border-radius: 50%;
+  width: 35px;
+  background: #ff1046;
+  }
+ .address-widget li i:before {
+    font-size: 20px;
+  }
